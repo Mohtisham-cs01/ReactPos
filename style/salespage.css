@@ -1,0 +1,92 @@
+/* src/styles/salesPage.css */
+.sales-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .sales-entry {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .sales-entry:hover {
+    transform: scale(1.05);
+  }
+  
+  .sales-master {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .sales-details-dropdown {
+    background-color: #2ecc71;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  button {
+    background-color: #e74c3c;
+    color: #ffffff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #c0392b;
+  }
+  
+
+  /* //////////// */
+
+
+
+  /* src/styles/salesPage.css */
+/* ... (previous styles) */
+
+.sales-details-dropdown {
+    background-color: #2ecc71;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Styling for react-select dropdown */
+  .react-select__control {
+    border: none;
+    box-shadow: none;
+  }
+  
+  .react-select__menu {
+    background-color: #27ae60;
+    border-radius: 8px;
+  }
+  
+  .react-select__option {
+    color: #ffffff;
+    &:hover {
+      background-color: #219d54;
+    }
+  }
+  
+
+  /* // */
+
+  /* src/styles/salesPage.css */
+.table-details thead th {
+    background-color: #2ecc71; /* Change the color to your preference */
+    color: #ffffff; /* Text color for table head */
+  }
+  

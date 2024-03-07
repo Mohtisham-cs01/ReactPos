@@ -1,0 +1,38 @@
+/* src/components/ItemList.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .form-container {
+    margin-top: 20px;
+  }
+  
+  .form-container input, .form-container button {
+    margin: 5px;
+  }
+  
